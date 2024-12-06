@@ -1,23 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <title>Super Hero Gallery</title>
-    <meta charset="UTF-8">
-    <style>
-      
-    </style>
-</head>
-<body>
-    <h1>Superhero Gallery</h1>
-  <table>
-    <tr>
-      <th>Name</th>
-      <th>Alias</th>
-      <th>Image</th>
-      <th>Superpowers</th>
-      <th>Weaknesses</th>
-    </tr>
-  </table>
-  
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <title>Superheroes</title>
+        <link rel="stylesheet" href="css/main.css">
+        <style>
+            img
+            {
+                height: 100px;
+            }
+            td, th
+            {
+                border: 2px solid black;
+                padding: 15px;
+            }
+            table
+            {
+                border-collapse: collapse;
+            }
+            th
+            {
+                background-color: gray;
+                font-size: 18px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>My Superheroes</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Alias</th>
+                    <th>Image</th>
+                    <th>Superpowers</th>
+                    <th>Weaknesses</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Scarlet Witch</th>
+                    <td>Wanda Maximoff</td>
+                    <td><a href="images/ScarletWitch.webp"><img src="images/ScarletWitch.webp" alt="Scarlet Witch Pic"></a></td>
+                    <td>
+                        <ul>
+                            <li>Power From Mind Stone</li>
+                            <li>Telekenesis</li>
+                            <li>Mind Control</li>
+                            <li>Witch Like Power</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>Human Like</li>
+                            <li>Her Children</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                <tr>
+                    <th>White Widow</th>
+                    <td>Yalena Belova</td>
+                    <td><a href="images/WhiteWidow.webp"><img src="images/WhiteWidow.webp" alt="White Widow Pic"></a></td>
+                    <td>
+                        <ul>
+                            <li>Exposed to Super Serum</li>
+                            <li>Extensive Assasin Training</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>Human</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+
+            </tbody>
+        </table>
+    </body>
 </html>
