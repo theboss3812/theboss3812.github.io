@@ -3,6 +3,8 @@ body {
     font-family: 'Calibri', sans-serif;
     color: black;
     font-weight: bold;
+    justify-content: center;
+    text-align: center;
     margin: 0;
     padding: 0;
 }
