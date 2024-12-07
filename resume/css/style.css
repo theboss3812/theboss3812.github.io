@@ -7,6 +7,10 @@ body
    align-items: center;
    min-height: 100vh;
    text-align: center;
+   border: 20px solid #4B0082;
+   box-sizing: border-box;
+   justify-content: center; 
+   height: 100vh;
 }
 header 
 {
@@ -33,4 +37,8 @@ h1, h2
 {
    border: 2px solid black;
    padding: 15px;
+}
+table
+{
+   border-collapse: collapse;
 }
