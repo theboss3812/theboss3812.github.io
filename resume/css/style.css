@@ -15,34 +15,13 @@ header
   padding: 20px;
   font-size: 24px;
 }
-li
-{
-   list-style-type: none;
-}
-table
-{
-  margin: 20px auto;
-  width: 80%;
-  max-width: 600px;
-}
 img
 {
   width: auto;
   height: 150px;
   margin: 20px 0;
 }
-h1, h2
+h1
 {
   margin: 10px 0;
-}
-p
-{
-  max-width: 600px;
-  margin: 10px auto;
-  line-height: 1.6;
-}
-a
-{
-  color: #2B6777;
-  text-decoration: none;
 }
